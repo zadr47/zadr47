@@ -1,1 +1,1 @@
-web: cd ./deploy/tomcat/bin && export 'JAVA_OPTS=-Dport.http=$PORT' && ./catalina.sh runo
+web: vendor/bin/heroku-php-apache2 .
